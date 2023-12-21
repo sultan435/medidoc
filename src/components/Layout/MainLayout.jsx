@@ -16,9 +16,9 @@ const MainLayout = () => {
     }
     return (
         <div className="bg-[#F9F9F9] dark:bg-[#150A09]">
-            <div className="lg:flex gap-6 max-w-screen-2xl mx-auto pb-6 " >
+            <div className="lg:flex gap-6 max-w-screen-2xl mx-auto pb-6 transition-all ease-in duration-300" >
                 <nav className="">
-                    <div className="absolute lg:fixed xl:static bg-white dark:bg-[#2E1619] lg:px-4 xl:px-8 pt-8 h-full z-10">
+                    <div className="absolute lg:fixed xl:static bg-white dark:bg-[#2E1619] lg:px-4 xl:px-8 pt-8 h-full z-10 transition-all ease-in duration-300">
                         <div onClick={toggleMenu}>
                             {
                                 menuOpen ? <div className="relative">

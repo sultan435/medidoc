@@ -1,6 +1,6 @@
 const Appointments = () => {
     return (
-        <div className="bg-white dark:bg-[#ffffff1a] shadow-md rounded-lg p-5 xl:p-4 mb-7 lg:mb-0">
+        <div className="bg-white dark:bg-[#ffffff1a] shadow-md rounded-lg p-5 xl:p-4 mb-7 lg:mb-0 transition-all ease-in duration-300">
             <h1 className="mb-4 mt-3 text-base text-[#2E1619] dark:text-white font-medium">Upcoming Appointments</h1>
             <div className="">
                 <div className="flex items-center gap-2">

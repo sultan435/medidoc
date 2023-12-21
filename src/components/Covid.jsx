@@ -13,7 +13,7 @@ const Covid = () => {
                 <div className="xl:flex-1">
                     <img className="w-full lg:w-60 h-full" src={covid} alt="" />
                 </div>
-                <div className="flex-1 bg-[#FF7590] text-[#F5F5F5] dark:text-white w-full text-center text-sm font-medium rounded-lg">
+                <div className="flex-1 bg-[#FF7590] text-[#F5F5F5] dark:text-white w-full text-center text-sm font-medium rounded-lg transition-all ease-in duration-300">
                     <div className='flex flex-col lg:flex-row gap-5 justify-evenly items-center p-10'>
                         <div>
                             <div>

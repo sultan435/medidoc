@@ -14,10 +14,10 @@ const Header = () => {
     return (
         <div>
             <div className=" lg:bg-gradient-to-r lg:from-[#F9F9F9] lg:via-[#F9F9F9] lg:to-[#F9F9F9] lg:dark:bg-gradient-to-r lg:dark:from-[#150A09] lg:dark:via-[#150A09] lg:dark:to-[#150A09] bg-gradient-to-r from-[#FF7594] via-[#FF797B] to-[#FF7C65] ">
-                <div className="flex justify-between items-center py-7 px-7 lg:px-0 w-full">
+                <div className="flex justify-between items-center py-7 px-7 lg:px-0 w-full transition-all ease-in duration-300">
                     <div>
                         <ul>
-                            <li className="text-base font-semibold  text-white dark:text-white lg:text-[#646F75] ml-10 lg:ml-0 xl:ml-0">Home</li>
+                            <li className="text-base font-semibold  text-white dark:text-white lg:text-[#646F75] ml-14 lg:ml-0 xl:ml-0 transition-all ease-in duration-300">Home</li>
                         </ul>
                     </div>
                     <div className="flex items-center gap-1">
@@ -34,7 +34,7 @@ const Header = () => {
                 </div>
             </div>
             <div className="block xl:hidden">
-                <div className="flex gap-6 flex-col lg:flex-row justify-between lg:items-center lg:rounded-lg bg-gradient-to-r from-[#FF7594] via-[#FF797B] to-[#FF7C65]  pb-10 px-10">
+                <div className="flex gap-6 flex-col lg:flex-row justify-between lg:items-center lg:rounded-lg bg-gradient-to-r from-[#FF7594] via-[#FF797B] to-[#FF7C65]  pb-10 px-10 transition-all ease-in duration-300">
                     <div className="flex justify-center">
                         <img src={img} alt="" />
                     </div>

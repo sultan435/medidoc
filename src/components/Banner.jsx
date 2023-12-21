@@ -8,7 +8,7 @@ import icon4 from '../assets/images/icon/Frame 2852.png'
 const Banner = () => {
     return (
         <div className="hidden xl:block">
-            <div className="flex justify-between items-center px-4 bg-gradient-to-r from-[#FF7594] via-[#FF797B] to-[#FF7C65] rounded-lg">
+            <div className="flex justify-between items-center px-4 bg-gradient-to-r from-[#FF7594] via-[#FF797B] to-[#FF7C65] rounded-lg transition-all ease-in duration-300">
                 <div>
                     <img src={img} alt="" />
                 </div>
